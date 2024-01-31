@@ -1,0 +1,276 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+#image {
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-image: url(/assets/images/bg\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#serbg {
+    background-color: rgb(158, 193, 206);
+}
+
+#abobg {
+    background-color: rgb(158, 193, 206);
+}
+
+#conbg {
+    background-color: rgb(158, 193, 206);
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 90%;
+    width: 100%;
+    background-color: black;
+    size: cover;
+
+}
+
+#navbar h1 {
+    position: relative;
+    color: rgb(8, 218, 250);
+    line-height: 150%;
+    left: 0;
+    font-size: 2.5rem;
+}
+
+#navbar ul li {
+    display: inline-flex;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+#navbar ul li a {
+    color: gold;
+    font-size: 1.5rem;
+    font-style: bold;
+    text-transform: uppercase;
+
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(130, 121, 121);
+}
+
+
+#main h1 {
+    margin: 5%;
+    color: rgba(249, 250, 250, 0.977);
+    font-size: 4rem;
+}
+
+#main h2 {
+    color: rgb(56, 214, 253);
+    font-size: 2rem;
+    line-height: 100%;
+}
+
+#about h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(8, 70, 121);
+}
+
+#about p {
+
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2%;
+}
+
+#aboutpic {
+    display: flex;
+    width: 50%;
+}
+
+
+.servicelist ul li {
+    margin: 1.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.servicelist p {
+    margin: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(206, 208, 154);
+    font-size: 1.3rem;
+
+
+}
+
+.servicelist h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(6, 6, 171);
+    font-size: 1.8rem;
+}
+
+#contact {
+    margin: 1rem 0em;
+    padding: 1em 1em;
+    border: solid 5px #e1e117;
+    border-radius: 10px;
+    min-width: 200px;
+    text-align: center;
+    font: 1em sans-serif;
+    background-color: rgb(5, 110, 126);
+    color: gold;
+}
+
+#form {
+    position: relative;
+    line-height: 30px;
+    padding: 5%;
+    border: #24262b;
+}
+
+#form input {
+    border: solid 3px rgb(228, 241, 35);
+    background-color: #98f0fa;
+
+}
+
+#form textarea {
+    border: solid 3px gold;
+    background-color: #98f0fa;
+}
+
+#form button {
+    font-size: 1rem;
+    border: solid 3px gold;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(52, 149, 197);
+}
+
+#form button:hover {
+    background-color: goldenrod;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+    color: goldenrod;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.footer-col h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: bisque;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: gold;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+
+.footer-col ul li a:hover {
+    color: white;
+    padding-left: 8px;
+
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(227, 214, 101, 0.897);
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease;
+
+
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: white;
+}
+
+.footer {
+    background-color: rgb(13, 124, 154);
+}
+
+
+@media only screen and (max-width:500px) {
+    navbar {
+        height: 50%;
+    }
+
+    navbar ul li a {
+        display: block;
+        font-size: 6px;
+    }
+
+    navbar h1 {
+        font-size: 8pxpx;
+    }
+
+    main h1 {
+        font-size: 10px;
+        margin: 1%;
+    }
+
+    main h2 {
+        font-size: 8px;
+        line-height: 30%;
+    }
+
+    aboutpic {
+        display: block;
+    }
+}

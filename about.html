@@ -3,82 +3,85 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <style>
-        #navbar {
-            display: flex;
-            justify-content: space-around;
-            height: 90%;
-            width: 100%;
-            background-color: black;
-            size: cover;
-
-        }
-
-        #navbar h1 {
-            position: relative;
-            color: rgb(58, 189, 215);
-            line-height: 80%;
-            left: 0;
-            font-size: 2.5rem;
-        }
-
-        #navbar ul li {
-            display: inline-flex;
-            line-height: 80px;
-            margin: 0 5px;
-        }
-
-        #navbar ul li a {
-            color: white;
-            font-size: 1.2rem;
-            text-transform: uppercase;
-
-        }
-
-        body {
-            background-color: rgba(56, 166, 188, 0.33);
-            font-family: sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div id="header">
-        <nav id="navbar">
-            <h1>Portfolio</h1>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./service.html">Service</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+    <div id="abobg">
+        <div id="header">
+            <nav id="navbar">
+                <h1>Portfolio</h1>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./service.html">Service</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
 
-            </ul>
+                </ul>
 
-        </nav>
+            </nav>
+        </div>
+        <div id="about">
+            <h1>About us</h1>
+            <p>Welcome to our About section! We are a team of passionate web developers dedicated to creating stunning
+                and
+                functional websites for our clients. <br> With years of experience and a keen eye for design, we are
+                committed to delivering high-quality, custom solutions that meet the unique needs of each project. <br>
+
+                Our team is skilled in a variety of programming languages, including HTML, CSS, JavaScript, and more.
+                <br>
+                We stay up-to-date with the latest web development trends and technologies to ensure that our clients
+                receive cutting-edge solutions that set them apart from the competition. <br>
+
+                At our core, we believe in the power of collaboration and communication. <br>We work closely with our
+                clients to understand their vision and goals, and we strive to exceed their expectations with every
+                project.
+                <br> Our dedication to customer satisfaction and our commitment to excellence are what set us apart in
+                the
+                web development industry.
+
+                We are proud of the work we do and the relationships we build with our clients. <br>We invite you to
+                explore
+                our portfolio and see the results of our hard work for yourself. <br>Thank you for considering us for
+                your
+                web development needs. <br> We look forward to the opportunity to work with you and bring your vision to
+                life.
+            </p>
+        </div>
+
     </div>
-    <div>
-        <h1>About us</h1>
-        <p>Welcome to our About section! We are a team of passionate web developers dedicated to creating stunning and
-            functional websites for our clients. <br> With years of experience and a keen eye for design, we are
-            committed to delivering high-quality, custom solutions that meet the unique needs of each project. <br>
-
-            Our team is skilled in a variety of programming languages, including HTML, CSS, JavaScript, and more. <br>
-            We stay up-to-date with the latest web development trends and technologies to ensure that our clients
-            receive cutting-edge solutions that set them apart from the competition. <br>
-
-            At our core, we believe in the power of collaboration and communication. <br>We work closely with our
-            clients to understand their vision and goals, and we strive to exceed their expectations with every project.
-            <br> Our dedication to customer satisfaction and our commitment to excellence are what set us apart in the
-            web development industry.
-
-            We are proud of the work we do and the relationships we build with our clients. <br>We invite you to explore
-            our portfolio and see the results of our hard work for yourself. <br>Thank you for considering us for your
-            web development needs. <br> We look forward to the opportunity to work with you and bring your vision to
-            life.
-        </p>
+    <div id="aboutpic"><img src="assets/images/about.jpg" alt="">
     </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>Get Help</h3>
+                    <ul>
+                        <li> <a href="#">FAQ</a></li>
+                        <li> <a href="#">Booking</a></li>
+                        <li> <a href="#">Packges</a></li>
+                        <li> <a href="#">Payment Option</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow us </h3>
+                    <div class="social-links ">
+
+                        <a href="#"> <i class="fa fa-facebook"></i></a>
+                        <a href="#"> <i class="fa fa-twitter"></i></a>
+                        <a href="#"> <i class="fa fa-instagram"></i></a>
+                        <a href="#"> <i class="fa fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
 </body>
 
 </html>
